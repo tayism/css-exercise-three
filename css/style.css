@@ -7,7 +7,6 @@ body {
 .container {
   margin: 0 auto;
   width: 420px;
-  padding: 10px;
 }
 
 nav {
@@ -18,13 +17,13 @@ nav {
   background-color: #000;
 }
 
-.restaurant-list {
-  padding-top: 70px;
-  background-color: #aaa;
+*, *:before, *:after {
+  box-sizing: border-box;
 }
 
-* {
-  box-sizing: border-box;
+.restaurant-list {
+  padding-top: 70px;
+  background-color: #f2f2f2;
 }
 
 h1 {
@@ -35,4 +34,18 @@ h1 {
 
 h3 {
   padding-left: 15px;
+  padding-bottom: 15px;
+}
+
+.location:hover {
+  background-color: #fff;
+}
+
+.arrow {
+  float: right;
+}
+
+.content {
+  border: .5px solid #aaa;
+  padding: 10px 20px 5px 15px;
 }
