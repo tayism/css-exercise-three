@@ -22,27 +22,30 @@ nav {
 }
 
 .restaurant-list {
-  padding-top: 70px;
+  padding-top: 50px;
   background-color: #f2f2f2;
 }
 
 h1 {
   font-weight: bold;
   padding: 10px 20px 5px 15px;
-  font-size: 1.3em;
+  font-size: 18px;
 }
 
 h3 {
   padding-left: 15px;
   padding-bottom: 15px;
+  font-size: 14px;
 }
 
 .location:hover {
-  background-color: #fff;
+  background-color: #aaa;
 }
 
 .arrow {
   float: right;
+  margin-top: -50px;
+  padding-right: 15px;
 }
 
 .content {
